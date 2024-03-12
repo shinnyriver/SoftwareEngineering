@@ -11,3 +11,5 @@ def duplicate(li):
 first_duplicate = duplicate(li)
 
 print(first_duplicate)
+
+#2019112163 박창수
