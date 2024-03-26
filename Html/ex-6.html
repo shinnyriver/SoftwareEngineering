@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h4>2019112163 박창수</h4><br>
+    <h3>강의 사이트 회원가입</h3>
+    <hr>
+    <form>
+        ID : <input type="text" value=""><br>
+        PW : <input type="password" value="" maxlength="20"><br>
+        Profile : <textarea cols="15" rows="5"></textarea><br>
+        성별 : <input type="text" list="gender"><br>
+            <datalist id="gender">
+                <option value="남자"></option>
+                <option value="여자"></option>        
+            </datalist>
+        <hr>
+        <h3>관심 분야</h3>
+        CSE<input type="checkbox" value="1"> 
+        ENG<input type="checkbox" value="2"> 
+        Research<input type="checkbox" value="3"><br>
+        <hr>
+        <h3>지원 강의</h3>
+        <input type="radio" name="lecture" value="1">React<img src="react.png" height="100" width="100"><br>
+        <input type="radio" name="lecture" value="2">JSP<img src="jsp.png" height="100" width="100"><br>
+        <input type="radio" name="lecture" value="3">Spring<img src="spring.png" height="100" width="100"><br>
+        <hr>
+        <input type="submit" value="제출하기">
+        <input type="reset" value="초기화하기"> 
+    </form>
+</body>
+</html>
