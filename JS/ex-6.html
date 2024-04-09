@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h4>2019112163 박창수</h4>
+    <script type="text/javascript">
+        function addPrice(amount){
+            this.price = amount;
+        }
+        
+        function book(title, author){
+            this.title = title;
+            this.author = author;
+            this.addPrice = addPrice;
+        }
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        var myBook = new book("1984", "George Orwell");
+        myBook.addPrice(100);
+        document.write("Book title is: " + myBook.title + "<br>");
+        document.write("Book author is: " + myBook.author + "<br>");
+        document.write("Book price is: " + myBook.price + "<br>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h4>2019112163 박창수</h4>
+    <script type="text/javascript">
+        function over() {
+            var div = document.getElementById("myDiv");
+            div.innerHTML = "Mouse Over";
+        }
+        function out() {
+            var div = document.getElementById("myDiv");
+            div.innerHTML = "Mouse Out";
+        }
+    </script>
+
+</head>
+<body>
+    <p>Bring your mouse inside the division to see the result:</p>
+
+    <div id="myDiv" onmouseover="over()" onmouseout="out()">
+        <h2>This is inside the division </h2>
+    </div>
+</body>
+</html>
