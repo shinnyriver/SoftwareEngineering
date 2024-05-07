@@ -28,9 +28,9 @@ root.render(
     // <Ex7 />
     // <Ex8 />
     // <Ex9 />
-    // <Ex10_1 />
+    <Ex10_1 />
     // <Ex10_2 />
-    <Ex11 />
+    // <Ex11 />
 );
 
 // If you want to start measuring performance in your app, pass a function
