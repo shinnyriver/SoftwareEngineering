@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from "react";
+import styles from "./Mycss.css";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>My First React App</h1>
-    </div>
-  );
+class Dongguk extends React.Component {
+  render() {
+    return <h1 className={styles}>Hello Dongguk!!</h1>
+  }
 }
 
-export default App;
+export default Dongguk;

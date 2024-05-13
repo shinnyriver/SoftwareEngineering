@@ -6,12 +6,10 @@ class Student extends Component {
       name: ''
     };
   
-    // handleChange 함수를 화살표 함수로 변환
     handleChange = (event) => {
       this.setState({ name: event.target.value });
     };
   
-    // handleClick 함수를 화살표 함수로 변환
     handleClick = () => {
       alert('Submitted: ' + this.state.name);
     };
